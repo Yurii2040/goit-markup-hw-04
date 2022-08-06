@@ -8,6 +8,8 @@
     --background-hero-color: #2f303a;
     --studio-employees-color: #f5f4fa;
     --address-color:  #FFFFFF99;
+    --icon-soc-color: #AFB1B8;
+    --icon-hover: #ffffff;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -171,6 +173,10 @@ img {
 
 .hero-studio{
 background-color: var(--background-hero-color);
+background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)), 
+    url(../images/studia-bg.jpg);
 }
 
 .hero-container{
@@ -351,7 +357,38 @@ flex-basis: calc((100% - 90px) / 4);
     letter-spacing: 0.03em;
     color: var(--contact-color);
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
+    
+}
+
+
+.employees-soc{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.employees-soc-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.employess-soc-icon {
+    fill: var(--icon-soc-color);
+}
+
+.employees-soc-link:hover,
+.employees-soc-link:focus{
+    background-color: var(--hover-hader-color);
+}
+
+.employees-soc-link:hover .employees-soc-icon,
+.employees-soc-link:focus .employees-soc-icon {
+    fill: yellow;
 }
 
 
