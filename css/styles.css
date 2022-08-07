@@ -10,6 +10,7 @@
     --address-color:  #FFFFFF99;
     --icon-soc-color: #AFB1B8;
     --icon-hover: #ffffff;
+    --studio-ion-list: #F5F4FA;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -236,6 +237,27 @@ background-image: linear-gradient(
     color: var(--page-hader-color);
 }
 
+.studio-icon-list{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.studio-icon-item{
+
+}
+
+.studio-icon-link{
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    display: flex;
+    background-color: var(--studio-ion-list);
+    align-items: center;
+    justify-content: center;
+
+}
+
 .studio-works-item{
    
 }
@@ -366,6 +388,7 @@ flex-basis: calc((100% - 90px) / 4);
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-bottom: 30px;
 }
 
 .employees-soc-link{
@@ -395,6 +418,26 @@ flex-basis: calc((100% - 90px) / 4);
     
 }
 
+
+/*--Clients--*/
+
+.our-clients-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.our-clients-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
 /*--PORTFOLIO--*/
 
