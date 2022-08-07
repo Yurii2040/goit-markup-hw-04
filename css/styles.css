@@ -375,20 +375,24 @@ flex-basis: calc((100% - 90px) / 4);
     display: flex;
    align-items: center;
    justify-content: center;
+   
+   
 }
 
-.employess-soc-icon {
+.employess-soc-icon{
     fill: var(--icon-soc-color);
 }
 
 .employees-soc-link:hover,
 .employees-soc-link:focus{
     background-color: var(--hover-hader-color);
+
 }
 
 .employees-soc-link:hover .employees-soc-icon,
 .employees-soc-link:focus .employees-soc-icon {
-    fill: yellow;
+    fill: var(--icon-hover);
+    
 }
 
 
