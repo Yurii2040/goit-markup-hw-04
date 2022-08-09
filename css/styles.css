@@ -141,12 +141,22 @@ img {
    
 }
 
+
+
 .header-mail {
     color: var(--contact-color);
 }
 
 .header-tel {
     color: var(--contact-color);
+}
+
+.header-icon-item {
+    fill: currentColor;
+    margin-right: 10px;
+    
+    
+
 }
 
 .header-contact .header-icon-item:hover,
@@ -164,12 +174,6 @@ img {
         color: var(--hover-hader-color);
     }
 
-.header-icon-item{
-    fill: var(--contact-color);
-    margin-right: 10px;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
@@ -198,7 +202,9 @@ background-image: linear-gradient(
     url(../images/studia-bg.jpg);
     background-repeat: no-repeat ;
     width: 1600px;
-    background-size: auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: auto auto;
     background-position: 50% 50%;
 }
 
@@ -588,6 +594,12 @@ gap: 30px;
     
     
 }
+
+.contaienr-link{
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
 .logo-footer{
     display: inline-block;
     font-family: 'Raleway';
@@ -659,6 +671,7 @@ gap: 30px;
     color: var(--address-color) ;
 }
 
+
 .footer-container-title{
     font-family: 'Roboto';
     font-style: normal;
@@ -670,9 +683,9 @@ gap: 30px;
     margin-bottom: 20px;
 }
 
-
 .footer-container-list{
     display: flex;
+    gap: 10px;
 }
 
 .footer-container-link{
