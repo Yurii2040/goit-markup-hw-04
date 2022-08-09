@@ -141,11 +141,26 @@ img {
    
 }
 
-.header-mail:hover, .header-mail:focus {
+.header-mail {
+    color: var(--contact-color);
+}
+
+.header-tel {
+    color: var(--contact-color);
+}
+
+.header-contact .header-icon-item:hover,
+.header-contact .header-icon-item:focus {
+    fill: var(--hover-hader-color);
+}
+
+.header-mail:hover, 
+.header-mail:focus {
     color: var(--hover-hader-color);
 }
 
-.header-tel:hover, .header-tel:focus {
+.header-tel:hover, 
+.header-tel:focus {
         color: var(--hover-hader-color);
     }
 
@@ -156,17 +171,8 @@ img {
     justify-content: center;
 }
 
-.header-icon-item:hover, .header-icon-item:focus{
-    fill: var(--hover-hader-color);
-}
 
-.header-mail {
-    color: var(--contact-color);
-}
 
-.header-tel {
-    color: var(--contact-color);
-}
 
 
 /*--HERO STUDIO--*/
@@ -190,6 +196,10 @@ background-image: linear-gradient(
     rgba(47, 48, 58, 0.4), 
     rgba(47, 48, 58, 0.4)), 
     url(../images/studia-bg.jpg);
+    background-repeat: no-repeat ;
+    width: 1600px;
+    background-size: auto auto;
+    background-position: 50% 50%;
 }
 
 .hero-container{
@@ -496,6 +506,7 @@ flex-basis: calc((100% - 90px) / 4);
     align-items: center;
    margin-bottom: 50px;
    justify-content: center;
+
 }
 
 
@@ -520,6 +531,8 @@ flex-basis: calc((100% - 90px) / 4);
 .main-btn:hover, .main-btn:focus {
     background-color: var(--hover-hader-color);
     color: var(--prodact-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .hero-list-work{
@@ -657,10 +670,9 @@ gap: 30px;
     margin-bottom: 20px;
 }
 
+
 .footer-container-list{
     display: flex;
-    gap: 10px;
-   
 }
 
 .footer-container-link{
