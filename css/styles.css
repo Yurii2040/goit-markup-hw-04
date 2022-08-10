@@ -144,16 +144,19 @@ img {
 
 
 .header-mail {
+    display: flex;
     color: var(--contact-color);
 }
 
 .header-tel {
+    display: flex;
     color: var(--contact-color);
 }
 
 .header-icon-item {
     fill: currentColor;
     margin-right: 10px;
+    vertical-align: middle;
     
     
 
@@ -201,7 +204,7 @@ background-image: linear-gradient(
     rgba(47, 48, 58, 0.4)), 
     url(../images/studia-bg.jpg);
     background-repeat: no-repeat ;
-    width: 1600px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     block-size: auto auto;
@@ -265,26 +268,10 @@ background-image: linear-gradient(
     color: var(--page-hader-color);
 }
 
-.studio-icon-list{
-    display: flex;
-    gap: 30px;
-    padding-bottom: 30px;
-}
-
 .studio-icon-item{
 
 }
 
-.studio-icon-link{
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    display: flex;
-    background-color: var(--studio-ion-list);
-    align-items: center;
-    justify-content: center;
-
-}
 
 .studio-works-item{
    
@@ -312,8 +299,8 @@ background-image: linear-gradient(
 .studio-works-list{
     display: flex;
     flex-wrap: nowrap;
-    column-gap: 30px;
-    
+    gap: 30px;
+    max-width: 1170px;
 }
 
 
@@ -407,7 +394,7 @@ flex-basis: calc((100% - 90px) / 4);
     letter-spacing: 0.03em;
     color: var(--contact-color);
     text-align: center;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     
 }
 
@@ -451,7 +438,6 @@ flex-basis: calc((100% - 90px) / 4);
 .our-clients{
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--background-clients);
 }
 
 .our-clients-title{
@@ -463,7 +449,7 @@ flex-basis: calc((100% - 90px) / 4);
     text-align: center;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -490,7 +476,7 @@ flex-basis: calc((100% - 90px) / 4);
 
 .our-clients-link:hover,
 .our-clients-link:focus {
-    border:1px solid var(--hover-hader-color);
+    border: solid var(--hover-hader-color);
 
 }
 
@@ -552,6 +538,12 @@ gap: 30px;
     background-color: var(--prodact-color);
     
   
+}
+
+.work-examples-hover:hover{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+0px 4px 4px rgba(0, 0, 0, 0.06), 
+1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .container-hero-title{
