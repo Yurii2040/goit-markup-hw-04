@@ -145,11 +145,13 @@ img {
 
 .header-mail {
     display: flex;
+    align-items: flex-start;
     color: var(--contact-color);
 }
 
 .header-tel {
     display: flex;
+    align-items: flex-start;
     color: var(--contact-color);
 }
 
